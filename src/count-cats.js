@@ -22,7 +22,7 @@ function countCats(matrix) {
         for(let elem of arr){
             if(elem =='^^'){
                 counter ++;
-            }
+            } else{counter = 0};
         }
    
     return counter;
